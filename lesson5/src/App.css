@@ -1,0 +1,110 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.addTodos {
+  width: 500px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.AddTodo__input {
+  width: 300px;
+  height: 45px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgb(191, 190, 190);
+  color: black;
+}
+.AddedTodo {
+  height: auto;
+  padding: 20px 15px;
+  background: rgb(255, 98, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 98, 0, 1) 0%,
+    rgba(255, 244, 0, 1) 77%,
+    rgba(255, 38, 0, 1) 100%
+  );
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.main {
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: rgb(19, 52, 58);
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.btnAdd {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(99, 203, 226);
+  width: 100px;
+  height: 35px;
+  font-size: 18px;
+  color: #fff;
+}
+.btnAdd:hover {
+  background-color: rgb(69, 143, 159);
+}
+
+.AddedTodo-in {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnSave {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(25, 168, 40);
+  width: 70px;
+  height: 35px;
+  font-size: 18px;
+  color: #fff;
+}
+.btnEdit {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(28, 171, 227);
+  width: 70px;
+  height: 35px;
+  font-size: 18px;
+  color: #fff;
+}
+.btns {
+  display: flex;
+  gap: 20px;
+}
+.btnDelete {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(194, 19, 19);
+  width: 70px;
+  height: 35px;
+  font-size: 18px;
+  color: #fff;
+}
+.todoText {
+  font-size: 20px;
+}
